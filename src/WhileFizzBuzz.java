@@ -6,7 +6,7 @@ public class WhileFizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
         if (divisibleBy3 && divisibleBy5) {
